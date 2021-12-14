@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mabel Tsado Portfolio</title>
+	<link href="../Portfolio/Assets/CSS/style.css" rel="stylesheet" type="text/css">
+  </head>
+  
+  <body>
+    <div class="row">
+      <nav class="nav">
+        <input type="checkbox" id="nav_checkbox" class="nav_checkbox">
+        <label for="nav_checkbox" class="nav_toggle">
+          <img src="../Portfolio/Assets/Images/hamburger-menu.png" alt="A hamburger menu" class="menu" width="100">
+          <img src="../Portfolio/Assets/Images/close-icon.png" alt="a close button" class="close" width="100">
+        </label>
+        <ul class="nav_menu">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="about-page.html">About</a></li>
+          <li><a href="projects.html">School Projects</a></li>
+        </ul>
+      </nav>
+      <div class="home-content" id="home-grid">
+        <div id="home-text" class="col-6">
+            <div id="name-text">
+                <h1>Mabel Tsado</h1>
+            </div>
+            <div id="home-description" >
+              Service Designer
+                <br>
+                UX Researcher
+                <br>
+            </div>
+        </div>
+        <div id="home-img" class="col-12">
+            <img src="../Portfolio/Assets/Images/home-image.png" alt="Mabel sitting on a boat in front of lit up buildings" class="mabel-home-image" id="home-image" onmouseover="changeImg()" onmouseout="changeImgBack()">
+        </div>
+      </div>
+    </div> 
+    <script src="../Assignment-8/Assets/JS/main.js" defer></script>
+  </body>
+</html>

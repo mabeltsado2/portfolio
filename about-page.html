@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mabel Tsado Portfolio</title>
+	<link href="../Portfolio/Assets/CSS/about-style.css" rel="stylesheet" type="text/css">
+  </head>
+  
+    <body>
+      <div class="row">
+        <nav class="nav">
+          <input type="checkbox" id="nav_checkbox" class="nav_checkbox">
+          <label for="nav_checkbox" class="nav_toggle">
+            <img src="../Portfolio/Assets/Images/hamburger-menu.png" alt="A hamburger menu" class="menu" width="100">
+          <img src="../Portfolio/Assets/Images/close-icon.png" alt="a close button" class="close" width="100">
+          </label>
+          <ul class="nav_menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="about-page.html">About</a></li>
+            <li><a href="projects.html">School Projects</a></li>
+          </ul>
+        </nav>
+        <div id="about-title" class="about-title">
+            <h1>About Me</h1>
+        </div>
+        <div id="about-content">
+          <div id="about-image">
+            <img src="../Portfolio/Assets/Images/about-image.png" alt="Mabel wearing a graduation cap and a blue dress outdoors" class="mabel-about-image" id="about-image">
+          </div>
+          <div id="about-description">
+            Hello. I am Mabel Tsado and I am studying HCI at Carnegie Mellon University (CMU). Before starting my masters, I received my bachelors of science in Business Administration at CMU with concentrations in Business Technology and Analytics along with a minor imn Biomedical Engineering.
+            <br>
+            <br>
+            I am interested in the intersection between business and technology and how to use both to improve the quality of life for different groups of people. I would be interested in working in the service and product design roles in order to bring together my business and HCI backgrounds.
+            <br>
+            <br>
+            Outside of academics, I love to cook and bake dishes I find on social media!
+          </div>
+          <div id="button-style">
+            <button type="button" class ="buttons" id ="resume-button" onmouseover="changeResumeButtonColor()" onmouseout="changeResumeButtonColorBack()"><a target="_blank" href="../Portfolio/Assets/Files/Mabel_TsadoResume.pdf" class="button-link">Resume</a></button>
+            <button type="button" class ="buttons" id ="project-button" onmouseover="changeProjectButtonColor()" onmouseout="changeProjectButtonColorBack()"><a class="button-link" href="projects.html">Projects</a></button>
+          </div>
+        </div>
+        
+      </div>
+      <script src="../Portfolio/Assets/JS/about.js" defer></script>
+    </body>
+</html>
